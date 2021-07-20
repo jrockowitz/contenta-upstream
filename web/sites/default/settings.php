@@ -32,3 +32,9 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+
+// Attempting to fix install configuration.
+$is_installer_url = (strpos($_SERVER['SCRIPT_NAME'], '/core/install.php') === 0);
+if ($is_installer_url) {
+  $settings['config_sync_directory'] = 'profiles/composer/contenta_jsonapi/config/sync';
+}
