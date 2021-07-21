@@ -48,8 +48,7 @@
                 "[project-root]/pantheon.upstream.yml": false,
                 "[project-root]/.gitattributes": false
             }
-        },
-        "enable-patching": true
+        }
     },
     "config": {
         "preferred-install": "dist",
