@@ -18,3 +18,16 @@ index a6da611..6d0a3ba 100644
 +  path: profiles/composer/contenta_jsonapi/modules/contenta_enhancements/logo.svg
    url: ''
    use_default: false
+diff --git a/modules/recipes_magazin/default_content/page_body/welcome.html b/modules/recipes_magazin/default_content/page_body/welcome.html
+index 53a1acb..0795a84 100644
+--- a/modules/recipes_magazin/default_content/page_body/welcome.html
++++ b/modules/recipes_magazin/default_content/page_body/welcome.html
+@@ -1,7 +1,7 @@
+ <div class="card horizontal">
+     <div class="card-stacked">
+         <div class="card-content"><img class="right" style="padding: 1.5rem;"
+-                                       src="/profiles/contrib/contenta_jsonapi/modules/contenta_enhancements/logo.svg">
++                                       src="/profiles/composer/contenta_jsonapi/modules/contenta_enhancements/logo.svg">
+             <span class="card-title">OK! I just installed Contenta CMS, now what?</span>
+             <p>First of all, congratulations! We know that trying new software can be both fun and
+                 also a little bit intimidating. In any case we are glad to see that you are giving

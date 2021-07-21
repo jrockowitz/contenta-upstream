@@ -22,7 +22,11 @@
         "patches": {
             "drupal/simple_oauth": {
                 "Issue #3021054: Allow bypassing permissions check on public/private key files": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/1.diff"
+            },
+            "contentacms/contenta_jsonapi": {
+                "Fix broken logo": "https://raw.githubusercontent.com/jrockowitz/contenta-upstream/master/patches/contenta_jsonapi-fix_system_theme_global.patch"
             }
+
         }
     }
 }
