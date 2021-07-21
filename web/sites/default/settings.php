@@ -33,8 +33,12 @@ if (file_exists($local_settings)) {
   include $local_settings;
 }
 
-// Attempting to fix install configuration.
+// Make sure contenta_jsonapi configuration is installed.
 $is_installer_url = (strpos($_SERVER['SCRIPT_NAME'], '/core/install.php') === 0);
 if ($is_installer_url) {
   $settings['config_sync_directory'] = 'profiles/composer/contenta_jsonapi/config/sync';
 }
+
+// Issue #3021054: Allow bypassing permissions check on public/private key files
+// @see https://www.drupal.org/project/simple_oauth/issues/3021054
+$settings['simple_oauth.key_permissions_check'] = FALSE;

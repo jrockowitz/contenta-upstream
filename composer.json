@@ -48,6 +48,11 @@
                 "[project-root]/pantheon.upstream.yml": false,
                 "[project-root]/.gitattributes": false
             }
+        },
+        "patches": {
+            "drupal/simple_oauth": {
+                "Issue #3021054: Allow bypassing permissions check on public/private key files": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/1.diff"
+            }
         }
     },
     "config": {
