@@ -1,0 +1,20 @@
+diff --git a/config/sync/system.theme.global.yml b/config/sync/system.theme.global.yml
+index a6da611..6d0a3ba 100644
+--- a/config/sync/system.theme.global.yml
++++ b/config/sync/system.theme.global.yml
+@@ -1,6 +1,6 @@
+ favicon:
+   mimetype: image/vnd.microsoft.icon
+-  path: profiles/contrib/contenta_jsonapi/modules/contenta_enhancements/favicon.ico
++  path: profiles/composer/contenta_jsonapi/modules/contenta_enhancements/favicon.ico
+   url: ''
+   use_default: false
+ features:
+@@ -9,6 +9,6 @@ features:
+   favicon: true
+   node_user_picture: true
+ logo:
+-  path: profiles/contrib/contenta_jsonapi/modules/contenta_enhancements/logo.svg
++  path: profiles/composer/contenta_jsonapi/modules/contenta_enhancements/logo.svg
+   url: ''
+   use_default: false
