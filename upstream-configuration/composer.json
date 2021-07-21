@@ -16,5 +16,12 @@
         "cweagans/composer-patches": "^1.0",
         "zaporylie/composer-drupal-optimizations": "^1.2",
         "contentacms/contenta_jsonapi": "dev-8.x-3.x"
+    },
+    "extra": {
+        "patches": {
+            "drupal/simple_oauth": {
+                "Issue #3021054: Allow bypassing permissions check on public/private key files": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/1.diff"
+            }
+        }
     }
 }
