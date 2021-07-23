@@ -29,6 +29,9 @@ For Pantheon
 - Why use /composer/ as the directory name over the standard /contrib/ directory
   name for profiles, modules, and themes.
 
+- Can upstreams update more than 
+  contenta-upstream/upstream-configuration/composer.json?
+
 ## Resources
 
 Articles
