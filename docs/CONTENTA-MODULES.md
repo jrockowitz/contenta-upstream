@@ -1,4 +1,17 @@
-# Contenta Modules
+# Headless distributions
+
+Below is a list of all the headless distributions that inspired or influences 
+the Contenta distribution.
+
+[Acquia Reservoir](https://dev.acquia.com/blog/introducing-reservoir-a-distribution-for-decoupling-drupal/19/06/2017/18296) - DEPRECATED
+A back end for your front end: a content repository. Powered by Drupal 8, JSON API and OAuth2.
+ 
+[Headless (Acquia) Lightning](https://github.com/acquia/headless_lightning) - EOL
+Headless Lightning is a more opinionated version of the Lightning Drupal distribution intended for use as a backend for decoupled applications. 
+
+--------------------------------------------------------------------------------
+
+# Contenta modules
 
 Below is a list of all the modules which are included with the 
 Contenta distribution.  These modules are the ingredients to a recipe for
