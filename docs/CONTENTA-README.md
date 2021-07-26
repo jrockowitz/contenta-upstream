@@ -12,7 +12,7 @@ You may update your Drupal like you usually do.
 - Go to your Pantheon dashboard. 
 - Click 'Site Admin' button.
 - Install Contenta.
-- *IMPORTANT!!!* In the "Configure additional modules," make sure to enable the "Consumer Image Styles" module. Do NOT install the "​​GraphQL integration in Contenta JS."
+- **IMPORTANT!!!** In the "Configure additional modules," make sure to enable the "Consumer Image Styles" module. Do NOT install the "​​GraphQL integration in Contenta JS."
 - Visit your Contenta site
 - If you see any error, go to your Pantheon dashboard and click "Clear Caches" button.
 
