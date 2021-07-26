@@ -73,7 +73,7 @@ Presentations
   - [Issue #3021054: Allow bypassing permissions check on public/private key files](https://www.drupal.org/project/simple_oauth/issues/3021054) 
 
 - InvalidArgumentException: Field image_styles is unknown. (/admin/config/services/consumer) 
-  - Must enabled the "Consumer Image Styles" module during or after installation
+  - Must enable the "Consumer Image Styles" module during or after installation
 
 ## Changes
 
