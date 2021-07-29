@@ -36,6 +36,9 @@ For Pantheon
 - Can upstreams update more than 
   contenta-upstream/upstream-configuration/composer.json?
 
+- How can I add custom repositories to 
+  contenta-upstream/upstream-configuration/composer.json?
+  
 ## Resources
 
 Articles
