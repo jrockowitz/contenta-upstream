@@ -134,3 +134,6 @@ upstream/web/
 
 # Ignore .env files as they are personal
 #/.env
+
+# Ignore database export used for local development
+/database.sql

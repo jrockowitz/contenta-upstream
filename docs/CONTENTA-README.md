@@ -24,6 +24,10 @@ For Contenta
   problems?  
   @see web/profiles/composer/contenta_jsonapi/config/sync
   
+For Lando
+
+- How is lando setting the database settings?
+
 For Pantheon 
 
 - Why use /composer/ as the directory name over the standard /contrib/ directory
