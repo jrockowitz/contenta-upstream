@@ -65,9 +65,11 @@ Presentations
   - Updated settings.php to uses 
     `$settings['config_sync_directory'] = 'profiles/composer/contenta_jsonapi/config/sync';` 
 
+- Patching not supported via upstream
+  - Added `"enable-patching": true,`to `"extras"` in /composer.json  
+
 - Homepage logo is a broken image  
   - Pantheon's composer.json settings is using web/profiles/composer/ instead of web/profiles/contrib/
-  - Need to determine if the composer.json settings should be fixed
   - Editing the homepage's content will break the page's layout.
 
 - Unable to install and install module 
@@ -92,6 +94,8 @@ Presentations
   patch.    
   @see contenta-upstream/upstream-configuration/composer.json 
   
+- Added `"enable-patching": true,`to `"extras"` in /composer.json  
+
 - Added patch to change 'profiles/contrib/contenta_jsonapi/modules/contenta_enhancements/logo.svg' 
   to profiles/composer/contenta_jsonapi/modules/contenta_enhancements/logo.svg     
   @see patches/contenta_jsonapi-fix_system_theme_global.patch
@@ -100,5 +104,6 @@ Presentations
   @see https://github.com/contentacms/contenta_jsonapi#cors    
   @see web/sites/default/services.yml  
   
-- Add contenta_demo module from sandbox on Drupa.org
+- Added contenta_demo module from sandbox on Drupa.org (IN-PROGRESS)
   @see composer.json
+  @see docs/CONTENTA-DEMO.md
