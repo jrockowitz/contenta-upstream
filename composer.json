@@ -11,33 +11,19 @@
         {
             "type": "path",
             "url": "upstream-configuration"
-        },
-        {
-            "type": "package",
-            "package": {
-                "type": "drupal-module",
-                "name": "sandbox/contenta_demo",
-                "version": "dev-1.0.x",
-                "source": {
-                    "url": "git@git.drupal.org:sandbox/jrockowitz-3225951.git",
-                    "type": "git",
-                    "reference": "1.0.x"
-                }
-            }
         }
     ],
     "require": {
-        "drush/drush": "^10",
         "pantheon-upstreams/upstream-configuration": "*",
-        "sandbox/contenta_demo": "dev-1.0.x"
+        "drush/drush": "^10"
     },
     "conflict": {
-        "drupal/drupal": "*"
+            "drupal/drupal": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
-         "installer-paths": {
+        "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
             "web/modules/composer/{$name}": ["type:drupal-module"],
