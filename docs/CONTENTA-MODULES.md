@@ -97,3 +97,15 @@ Tell the system to execute several requests in a single bootstrap.
 **[Decoupled Router](https://www.drupal.org/project/decoupled_router)**  
 Decoupled Router provides an endpoint that will help you resolve path aliases and redirects for entity related routes.
  
+--------------------------------------------------------------------------------
+
+# Additional modules
+
+**[GraphQL](https://www.drupal.org/project/graphql)**  
+This module lets you craft and expose a GraphQL schema for Drupal 8 and 9.
+
+**[JSON Web Token Authentication (JWT)](https://www.drupal.org/project/jwt)**  
+The JSON Web Token (JWT) Authentication module provides a Drupal authentication provider that uses JWTs as the primary factor of authentication.
+
+**[Key](https://www.drupal.org/project/key)**  
+Key provides the ability to improve Drupal security by managing sensitive keys (such as API and encryption keys).

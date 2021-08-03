@@ -52,7 +52,7 @@
 ## Management
 
     # Display USER1 name and email using SQL.
-    lando drush sql:query 'SELECT name,mail  FROM users_field_data WHERE uid=1';    
+    lando drush sql:query 'SELECT name,mail FROM users_field_data WHERE uid=1';    
 
     # Display USER1 information.
     lando drush user:information webmaster
@@ -118,3 +118,8 @@
 
     # Import.
     lando db-import database.sql
+
+### Git
+    
+    # Remove patch and untracked files
+    git reset --hard; git clean -f -d

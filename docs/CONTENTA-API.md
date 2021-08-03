@@ -26,3 +26,12 @@ View recipe
 
 View recipe including owner and categories    
 <https://dev-rockowij-contenta.pantheonsite.io/api/recipes/6f510791-ce8b-4d5c-852d-6529cc63d664?include=owner,category> 
+
+
+## Paragraphs Demo
+
+View all paragraph demo
+<https://dev-rockowij-contenta.pantheonsite.io/api/node/paragraphed_content_demo>
+
+View paragraph demo with individual paragraphs
+<https://dev-rockowij-contenta.pantheonsite.io/api/node/paragraphed_content_demo?include=field_paragraphs_demo>
