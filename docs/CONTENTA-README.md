@@ -32,10 +32,11 @@ For Pantheon
 
 - Why use /composer/ as the directory name over the standard /contrib/ directory
   name for profiles, modules, and themes.
-
-- Can upstreams update more than 
-  contenta-upstream/upstream-configuration/composer.json?
-
+  
+  > This makes it simpler to install modules using e.g. Drush or the Drupal
+module installation UI in OSD mode without fear of IC-imposed .gitignore
+issues. @see https://github.com/pantheon-upstreams/drupal-project/commit/fc94e4c212aae6c22731e8ab5e560aa8ffe3d528
+                                                                                                                 
 - How can I add custom repositories to  
   contenta-upstream/upstream-configuration/composer.json?
   
