@@ -7,7 +7,7 @@ You may update your Drupal like you usually do.
 - https://github.com/contentacms/contenta_jsonapi 
 - https://packagist.org/packages/contentacms/contenta_jsonapi 
 
-## Directions
+## Pantheon: Installation
 
 - Go to your Pantheon dashboard. 
 - Click 'Site Admin' button.
@@ -15,6 +15,10 @@ You may update your Drupal like you usually do.
 - **IMPORTANT!!!** In the "Configure additional modules," make sure to enable the "Consumer Image Styles" module. Do NOT install the "​​GraphQL integration in Contenta JS."
 - Visit your Contenta site
 - If you see any error, go to your Pantheon dashboard and click "Clear Caches" button.
+
+## Pantheon: Local Development
+
+@see <https://docs.lando.dev/config/pantheon.html>
 
 ## Questions
 
